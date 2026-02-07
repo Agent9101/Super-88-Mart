@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super 88 Market | Boston</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <style>
+    /* Reset & basic styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body {
+      background-color: #fefcf8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background-color: #1e3d59;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #ff6e40;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://images.unsplash.com/photo-1589927986089-35812386f7ca?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+    .hero h2 {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    /* About Section */
+    .about {
+      padding: 60px 40px;
+      background-color: #fff;
+      text-align: center;
+    }
+    .about h2 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    .about p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+
+    /* Products Section */
+    .products {
+      padding: 60px 40px;
+      background-color: #f5f5f5;
+    }
+    .products h2 {
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 40px;
+      font-size: 2rem;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+    .product-card {
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .product-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .product-card h3 {
+      padding: 15px;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    /* Contact Section */
+    .contact {
+      padding: 60px 40px;
+      text-align: center;
+      background-color: #fff;
+    }
+    .contact h2 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    .contact p {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1e3d59;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9rem;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      background-color: #ff6e40;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background-color: #ff3b0f;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Super 88 Market</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Fresh & Authentic Asian Groceries in Boston</h2>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>Super 88 Market is your go-to destination for fresh produce, exotic ingredients, and authentic Asian groceries. Located in Boston, we bring flavors from around the world to your kitchen every day.</p>
+  </section>
+
+  <!-- Products -->
+  <section class="products" id="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=400&q=80" alt="Fresh Produce">
+        <h3>Fresh Produce</h3>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1598514982326-cf8f8f31d6f0?auto=format&fit=crop&w=400&q=80" alt="Asian Snacks">
+        <h3>Asian Snacks</h3>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1617196033427-74d3a711be12?auto=format&fit=crop&w=400&q=80" alt="Spices & Sauces">
+        <h3>Spices & Sauces</h3>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1617196033282-fc6b63e51fc5?auto=format&fit=crop&w=400&q=80" alt="Frozen Foods">
+        <h3>Frozen Foods</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Address: 123 Boston St, Boston, MA</p>
+    <p>📞 Phone: (617) 555-1234</p>
+    <p>✉️ Email: info@super88boston.com</p>
+    <a href="mailto:info@super88boston.com" class="btn">Email Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2026 Super 88 Market. All rights reserved.
+  </footer>
+
+</body>
+</html>
